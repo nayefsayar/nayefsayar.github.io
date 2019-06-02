@@ -5,64 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <link href=> //for a font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <title>Nayef's Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1>Hello, I'm Nayef Sayar. I'm a full-stack web developer.</h1>
+        <h1 id="helloh1">Hello, I'm Nayef Sayar. I'm a full-stack web developer.</h1>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>About Me</h2>
-            <!-- <img src="" alt="Nayef's Picture"> //for my picture -->
-            <p>I write code, then bring it life. Currently a student @ General Assembly</p>
+
+        <section id="about">
+            <h2 id="abouth2">About Me</h2>
+            <img src="https://i.imgur.com/NNNIwlQ.png" alt= "Nayef's Picture" title="source: imgur.com" />
+            <p id="aboutp">I write code, then bring it life. Currently a student @ General Assembly</p>
         </section>
-        <section>
-            <h2>Portfolio</h2>
+
+        <section id="portfolio">
+            <h2 id="portfolioh2">Portfolio</h2>
             <div>
-                <div>
-                    <a href=""><img src="" alt=""></a>
+                <div class="dthumb">
+                    <a href="https://imgur.com/K6iPkJa"><img src="https://i.imgur.com/K6iPkJa.jpg" title="source: imgur.com" /></a>
                 </div>
                 <div>
-                    <p>
+                    <p class="ptext">
                         Memory Game
-                        05.10.19
+                        05.20.19
                         HTML, CSS, JS
                     </p>
                 </div>
             </div>
+
             <div>
-                <div>
-                    <a href=""><img src="" alt=""></a>
+                <div class="dthumb">
+                    <a href="https://imgur.com/OyM6g1N"><img src="https://i.imgur.com/OyM6g1N.jpg" title="source: imgur.com" /></a>
                 </div>
                 <div>
-                    <p>
-                        Band
-                        05.10.19
-                        HTML, CSS, JS
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <a href=""><img src="" alt=""></a>
-                </div>
-                <div>
-                    <p>
+                    <p class="ptext">
                         Landing Page
                         05.10.19
+                        HTML, CSS, JS
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="dthumb">
+                    <a href="https://imgur.com/dwPLSdt"><img src="https://i.imgur.com/dwPLSdt.jpg" title="source: imgur.com" /></a>
+                </div>
+
+                <div>
+                    <p class="ptext">
+                        Light Game
+                        04.01.19
                         HTML, CSS, JS
                     </p>
                 </div>
@@ -71,8 +75,9 @@
     </main>
 
     <footer>
-        <h2>Contact</h2>
-        <nav>
+        <section id="contact">
+        <h2 id="contacth2">Contact</h2>
+        <nav id="contactnav">
             <ul>
                 <li><a href="#">nayefisaac@gmail.com</a></li>
                 <li><a href="#">470-318-0288</a></li>
@@ -81,9 +86,11 @@
             </ul>
         </nav>
         <p>
-            <p id="">&copy; 2019 Nayef Sayar</p>
+            <p id="copyright">&copy; 2019 Nayef Sayar</p>
         </p>
+        </section>
     </footer>
+<script src="script.js"></script>
 </body>
 
 </html>
