@@ -107,25 +107,21 @@ img {
     text-align: center;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-}
-
-li {
+a {
     font-family: "Raleway", sans-serif;
 	color: #FFFFFF;
 	letter-spacing: 1px;
 	font-weight: 600;
 	font-size: 18px;
     padding: 0px 20px 0px;
+    text-decoration: none;
 }
 
-div {
+ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
 }
 
 header {
